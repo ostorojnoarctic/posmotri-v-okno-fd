@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;
 }
 
 h1,
@@ -36,6 +39,8 @@ ul,
 ol {
   list-style: none;
 }
+
+
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
